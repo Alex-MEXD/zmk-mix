@@ -54,7 +54,7 @@ layers:
   - LEFT ALT
   - {t: SPACE, h: layer 1}
   - SPACE
-  - SPACE
+  - RIGHT ALT
   - {t: layer 1, h: toggle}
   - {t: SPACE, h: layer 1}
   - RSHFT
