@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - ;
-  - ''''
+  - RET
   - LSHFT
   - Z
   - X
@@ -48,19 +48,19 @@ layers:
   - ','
   - .
   - /
-  - RSHFT
+  - ''''
   - LCTRL
-  - MUTE
+  - LEFT GUI
   - LEFT ALT
-  - LGUI
-  - layer 1
+  - {t: SPACE, h: layer 1}
   - SPACE
-  - ENTER
-  - layer 2
-  - LEFT WIN
-  - RIGHT ALT
-  - {t: SPACE, h: Buleth}
-  - RCTRL
+  - SPACE
+  - {t: layer 1, h: toggle}
+  - {t: SPACE, h: layer 1}
+  - RSHFT
+  - MUTE
+  - MUTE
+  - PRINTSCREEN
   layer 1:
   - F12
   - F1
@@ -75,40 +75,39 @@ layers:
   - F10
   - F11
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESC
+  - UP ARROW
   - '-'
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - BACKSPACE
   - '['
   - ']'
+  - '4'
+  - '5'
+  - '6'
+  - RET
+  - {t: ▽, type: trans}
+  - RET
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+TAB
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -119,6 +118,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,7 +178,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -242,7 +242,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [0, 11, 54, 53]
